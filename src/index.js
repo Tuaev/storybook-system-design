@@ -2,8 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
-ReactDOM.render(<App />, document.getElementById('root'));
+import { GlobalStyle } from './utils';
+ReactDOM.render(
+  <>
+    <App />
+    <GlobalStyle />
+  </>,
+  document.getElementById('root')
+);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
