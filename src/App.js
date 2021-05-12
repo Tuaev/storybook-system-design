@@ -3,9 +3,9 @@ import PrimaryButton, { SecondaryButton, TertiaryButton } from './components/But
 const App = () => {
   return (
     <div>
-      <PrimaryButton>Hello World</PrimaryButton>
-      <SecondaryButton>Hello World</SecondaryButton>
-      <TertiaryButton>Hello World</TertiaryButton>
+      <PrimaryButton disabled>Hello World</PrimaryButton>
+      <SecondaryButton disabled>Hello World</SecondaryButton>
+      <TertiaryButton disabled>Hello World</TertiaryButton>
     </div>
   );
 };
