@@ -26,8 +26,8 @@ export const defaultTheme = {
 
 export const darkTheme = {
   primaryColor: neutral[100],
-  primaryHoverColor: neutral[200],
-  primaryActiveColor: neutral[300],
+  primaryColorHover: neutral[200],
+  primaryColorActive: neutral[300],
   textColorOnPrimary: blue[300],
   textColor: blue[300],
   textColorInverted: neutral[100],

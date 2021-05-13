@@ -16,7 +16,7 @@ const App = () => {
       </button>
       <div
         style={{
-          background: useDarkTheme ? defaultTheme.primaryColor : darkTheme.primaryColor,
+          background: useDarkTheme ? 'black' : darkTheme.primaryColor,
           height: '100vh',
           display: 'flex',
           alignItems: 'center',
